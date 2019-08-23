@@ -149,8 +149,8 @@ submit_btn.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=100)
 query_btn = Button(root, text="Show Records", command=query)
 query_btn.grid(row=7, column=0, columnspan=2, pady=10, padx=10, ipadx=137)
 #Create Delete Button
-query_btn = Button(root, text="Delete Record", command=delete)
-query_btn.grid(row=10, column=0, columnspan=2, pady=10, padx=10, ipadx=136)
+delete_btn = Button(root, text="Delete Record", command=delete)
+delete_btn.grid(row=10, column=0, columnspan=2, pady=10, padx=10, ipadx=136)
 
 # Commit Changes
 conn.commit()
